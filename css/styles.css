@@ -377,13 +377,12 @@ li{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 30px;
-
 }
 .filter label{
     font-size: 2.3rem;
     outline: 0;
     color: #7e7a7a;
-    }
+}
 .filter input{
     border: none;
     width: 80%;
@@ -398,9 +397,8 @@ li{
     box-shadow: 0 2px 5px 0px rgba(0, 0, 0, .2);
     height: 40px;
     padding: .5rem 2rem;
-
 }
-.filter category{
+.filter .category{
     box-shadow: 0 2px 5px 0px rgba(0, 0, 0, .2);
     display: flex;
     padding: 0 1rem;
@@ -413,8 +411,7 @@ li{
     font-size: 1.6rem;
     color: #5a5858;
 }
-@media only screen and(max-width:768px) {
-
+@media (min-width: 768px){
     .filter .grid{
         grid-template-columns: 480px 200px;
         justify-content: space-between;
@@ -422,7 +419,6 @@ li{
         margin: auto;
     }
 }
-
 /* Detalles */
 .detalles{
     height: 100vh;
